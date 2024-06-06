@@ -5,7 +5,7 @@ smeće_plast_flaša		1	Лука	Мисојчић	РА 51/2021	Јелена	Га�
 smeće_plast_čep	1	1	Стефан	Живанић	RA 43/2021	Александар	Ћетковић	RA 24/2021			
 smeće_čep_od_piva											
 smeće_konzerva											
-smeće_papirić		1	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         								
+smeće_papirić		1									
 smeće_kesa											
 korov_palamida			Анте	Решетар							
 korov_sirak			Александар	Ивановић							
@@ -29,7 +29,7 @@ komponenta_šraf_konus_krstak
 komponenta_šraf_turban											
 komponenta_šraf_sočivast											
 rupe_na_putu											
-kvalitet_banana											
+kvalitet_banana	3	1	Петар	Милинковић		Стефан	Радовановић				
 kvalitet_paprika_roga											
 kvalitet_paprika_babura											
 kvalitet_paradajiz											
