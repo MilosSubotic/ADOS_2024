@@ -1,38 +1,33 @@
-Team name	classes	Taken	Име1	Презиме1	Индекс1	Име2	Презиме2	Индекс2	Име3	Презиме3	Индекс3
-lego	4	1	Милош	Суботић	DP-7/2015						
-smeće_pikavac		1	Вук	Квежевић		Данило	Бајић				
-smeće_plast_flaša		1	Лука	Мисојчић	РА 51/2021	Јелена	Гајић	РА 15/2015			
-smeće_plast_čep	1	1	Стефан	Живанић	RA 43/2021	Александар	Ћетковић	RA 24/2021			
-smeće_čep_od_piva											
-smeće_konzerva											
-smeće_papirić		1									
-smeće_kesa											
-korov_palamida			Анте	Решетар							
-korov_sirak			Александар	Ивановић							
-korov_štirak			Никола	Бошковић							
-kultura_kukurus			Вук	Антовић							
-plod_na_biljci_jabuka											
-plod_na_biljci_kruška											
-plod_na_biljci_malina											
-plod_na_biljci_kupina											
-plod_na_biljci_grožđe											
-plod_na_biljci_paradajiz											
-plod_na_biljci_krastavac											
-plod_na_biljci_buranija											
-komponenta_električna_otpornik											
-komponenta_mašinska_matica											
-komponenta_mašinska_matica_leptir											
-komponenta_mašinska_matica_šešir											
-komponenta_šraf_hex											
-komponenta_šraf_imbus											
-komponenta_šraf_konus_krstak											
-komponenta_šraf_turban											
-komponenta_šraf_sočivast											
-rupe_na_putu											
-kvalitet_banana	3	1	Петар	Милинковић		Стефан	Радовановић				
-kvalitet_paprika_roga											
-kvalitet_paprika_babura											
-kvalitet_paradajiz											
-											
-											
-			Мина	Савић	RA 174/2019	Дарио	Петковић	RA 204/2019			
+Team name	classes	Taken	Име1	Презиме1	Индекс1	Име2	Презиме2	Индекс2	Име3	Презиме3	Индекс3			
+lego	4	1	Милош	Суботић	DP-7/2015									
+smeće_pikavac		1	Вук	Квежевић		Данило	Бајић		Петар	Ланговић	РА 65/2021			
+smeće_plast_flaša		1	Лука	Мисојчић	РА 51/2021	Јелена	Гајић	РА 15/2015						
+smeće_plast_čep	1	1	Стефан	Живанић	РА 43/2021	Александар	Ћетковић	РА 24/2021						
+smeće_pivske_flaše_čepovi_limenke	3	1	Ана	Мујић	РA 58/2021	Стефан	Митић	РА 216/2021	Михаило	Магош	РА 219/2021	Жарко	Марић	РА 225/2021
+smeće_pivske_flaše	1	1?	Мина	Савић	RA 174/2019	Дарио	Петковић	RA 204/2019						
+smeće_konzerva														
+smeće_papirić		1												
+smeće_kesa														
+korov_palamida_sirak_štirak_kultura_kukurus		1	Анте	Решетар		Александар	Ивановић		Никола	Бошковић		Вук	Антовић	
+plod_na_biljci_jabuka														
+plod_na_biljci_kruška														
+plod_na_biljci_malina														
+plod_na_biljci_kupina														
+plod_na_biljci_grožđe														
+plod_na_biljci_paradajiz														
+plod_na_biljci_krastavac														
+plod_na_biljci_buranija														
+komponenta_električna_otpornik														
+komponenta_mašinska_matica														
+komponenta_mašinska_matica_leptir														
+komponenta_mašinska_matica_šešir														
+komponenta_šraf_hex														
+komponenta_šraf_imbus														
+komponenta_šraf_konus_krstak														
+komponenta_šraf_turban														
+komponenta_šraf_sočivast														
+rupe_na_putu														
+kvalitet_banana	3	1	Петар	Милинковић	РА 173/2020	Стефан	Радовановић	РА 176/2021						
+kvalitet_paprika_roga														
+kvalitet_paprika_babura														
+kvalitet_paradajiz														
