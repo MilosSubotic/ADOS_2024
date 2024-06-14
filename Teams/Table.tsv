@@ -17,7 +17,7 @@ plod_na_biljci_grožđe
 plod_na_biljci_paradajiz														
 plod_na_biljci_krastavac														
 plod_na_biljci_buranija														
-komponenta_električna_otpornik														
+komponenta_električna_otpornik_kondezator	2	1	Синиша	Илић	РА 153/2021	Јана	Петровић	РА 159/2021						
 komponenta_mašinska_matica														
 komponenta_mašinska_matica_leptir														
 komponenta_mašinska_matica_šešir														
@@ -26,7 +26,7 @@ komponenta_šraf_imbus
 komponenta_šraf_konus_krstak														
 komponenta_šraf_turban														
 komponenta_šraf_sočivast														
-rupe_na_putu														
+rupe_na_putu	1	1	Вукашин	Матовић	РА 182/2021	Ана	Зец	РА 92/2021						
 kvalitet_banana	3	1	Петар	Милинковић	РА 173/2020	Стефан	Радовановић	РА 176/2021						
 kvalitet_paprika_roga														
 kvalitet_paprika_babura														
