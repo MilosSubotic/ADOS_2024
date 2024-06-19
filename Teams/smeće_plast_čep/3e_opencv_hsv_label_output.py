@@ -4,7 +4,7 @@ import os
 import glob
 
 # Definisanje direktorijuma sa slikama
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test'  # Putanja do direktorijuma sa slikama
+image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test/'  # Putanja do direktorijuma sa slikama
 
 # Putanja za čuvanje YOLO formata anotacija
 annotation_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/labels/test'
@@ -18,7 +18,7 @@ image_paths = glob.glob(os.path.join(image_dir, '*.*'))
 # Definisanje HSV opsega za različite boje (crvena, zelena, plava)
 color_ranges = {
     'black': ([0, 0, 0], [180, 255, 45]),
-    'white': ([0, 0, 231], [180, 18, 255]),
+    'white': ([0, 0, 240], [180, 111, 255]),
     'red': ([159, 50, 70], [180, 255, 255]),
     'green': ([36, 50, 70], [89, 255, 255]),
     'blue': ([90, 50, 70], [128, 255, 255]),
