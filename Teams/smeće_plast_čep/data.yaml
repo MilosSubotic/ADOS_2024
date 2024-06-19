@@ -1,15 +1,15 @@
-path: /home/micuri/STEM/Computer_Engineering/RT-RK/git/ADOS_2024/Teams/lego/dataset
+path: /home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset
 
 train: images/train
 val: images/val
 
 nc: 7
 names: [
-  'bela',
-  'crvena',
-  'crna',
-  'plava',
-  'narandzasta'
-  'zuta',
-  'zelena',
+  'black',
+  'white',
+  'red',
+  'green',
+  'blue'
+  'yellow',
+  'orange',
 ]
