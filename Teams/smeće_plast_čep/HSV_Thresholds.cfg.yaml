@@ -12,7 +12,7 @@ classes:
       start: 255
       stop: 231
   - class_name: crvena
-      class_id: 0
+      class_id: 1
       bb_color: [255, 0, 0] 
       H:
         start: 180
@@ -24,7 +24,7 @@ classes:
         start: 255
         stop: 70
   - class_name: crna
-      class_id: 0
+      class_id: 2
       bb_color: [0, 0, 0] 
       H:
         start: 180
@@ -36,7 +36,7 @@ classes:
         start: 30
         stop: 0
   - class_name: plava
-      class_id: 0
+      class_id: 3
       bb_color: [0, 0, 255] 
       H:
         start: 128
@@ -48,7 +48,7 @@ classes:
         start: 255
         stop: 70
   - class_name: narandzasta
-      class_id: 0
+      class_id: 4
       bb_color: [255, 165, 0] 
       H:
         start: 24
@@ -60,7 +60,7 @@ classes:
         start: 255
         stop: 70
   - class_name: zuta
-      class_id: 0
+      class_id: 5
       bb_color: [255, 255, 0] 
       H:
         start: 35
@@ -72,7 +72,7 @@ classes:
         start: 255
         stop: 70
   - class_name: zelena
-      class_id: 0
+      class_id: 6
       bb_color: [255, 255, 0] 
       H:
         start: 89
