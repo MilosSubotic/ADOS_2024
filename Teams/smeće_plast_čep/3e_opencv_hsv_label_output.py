@@ -4,10 +4,10 @@ import os
 import glob
 
 # Definisanje direktorijuma sa slikama
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test/'  # Putanja do direktorijuma sa slikama
+image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/val/'  # Putanja do direktorijuma sa slikama
 
 # Putanja za čuvanje YOLO formata anotacija
-annotation_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/labels/test'
+annotation_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/labels/val'
 
 # Kreiranje direktorijuma za YOLO anotacije ako ne postoji
 os.makedirs(annotation_dir, exist_ok=True)
