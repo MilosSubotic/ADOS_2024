@@ -17,7 +17,7 @@ image_paths = glob.glob(os.path.join(image_dir, '*.*'))
 
 # Definisanje HSV opsega za različite boje (crvena, zelena, plava)
 color_ranges = {
-    'black': ([0, 0, 0], [180, 255, 30]),
+    'black': ([0, 0, 0], [180, 255, 45]),
     'white': ([0, 0, 231], [180, 18, 255]),
     'red': ([159, 50, 70], [180, 255, 255]),
     'green': ([36, 50, 70], [89, 255, 255]),
