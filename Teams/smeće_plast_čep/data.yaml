@@ -3,10 +3,13 @@ path: /home/micuri/STEM/Computer_Engineering/RT-RK/git/ADOS_2024/Teams/lego/data
 train: images/train
 val: images/val
 
-nc: 4
+nc: 7
 names: [
-  'red_lego',
-  'green_lego',
-  'blue_lego',
-  'yellow_lego',
+  'bela',
+  'crvena',
+  'crna',
+  'plava',
+  'narandzasta'
+  'zuta',
+  'zelena',
 ]

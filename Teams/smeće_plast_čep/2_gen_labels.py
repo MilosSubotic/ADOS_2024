@@ -20,7 +20,7 @@ def run_cmd(cmd):
 		error('failed cmd:', cmd)
 
 
-for subdir in ['train', 'val', 'test', 'trash']:
+for subdir in ['train', 'val', 'test']:
 	images_subdir = join(images_dir, subdir)
 	labels_subdir = join(labels_dir, subdir)
 	os.makedirs(labels_subdir, exist_ok = True)
