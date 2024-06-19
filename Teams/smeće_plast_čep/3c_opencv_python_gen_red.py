@@ -2,14 +2,14 @@ import cv2
 import numpy as np
 
 # Učitavanje slike
-image = cv2.imread('/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/train/IMG_20240618_111935644_result.jpg')
+image = cv2.imread('/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test/IMG_20240618_131314784_result.jpg')
 
 # Konverzija slike iz BGR u HSV prostor boja
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 # Definisanje HSV opsega za ciljne boje (primer za crvenu boju)
-lower_red = np.array([159, 50, 70])
-upper_red = np.array([180, 255, 255])
+lower_red = np.array([9, 100, 100])
+upper_red = np.array([29, 255, 255])
 
 # Kreiranje maske za crvenu boju
 mask = cv2.inRange(hsv_image, lower_red, upper_red)
