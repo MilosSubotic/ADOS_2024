@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Učitavanje slike
-image = cv2.imread('/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/val/IMG_20240618_115649885_result.jpg')
+image = cv2.imread('/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test/IMG_20240618_131152135_result.jpg')
 
 # Konverzija slike iz BGR u HSV prostor boja
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
