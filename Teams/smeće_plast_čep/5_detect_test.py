@@ -6,7 +6,7 @@ from ultralytics import YOLO
 import glob
 
 # Load a model
-model = YOLO("runs/detect/train2/weights/best.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 imgs = glob.glob('dataset/images/train/*.jpg')
 

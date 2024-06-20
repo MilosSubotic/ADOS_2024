@@ -4,7 +4,7 @@ import glob
 import os
 
 # Define the directory with images
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/test/'  # Path to the directory with images
+image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/train/'  # Path to the directory with images
 
 # Find all images in the directory (jpg, png, etc.)
 image_paths = glob.glob(os.path.join(image_dir, '*.*'))
@@ -12,29 +12,41 @@ image_paths = glob.glob(os.path.join(image_dir, '*.*'))
 # Process each image in the directory
 for image_path in image_paths:
     # Load the image
-    img = cv2.imread(image_path, cv2.IMREAD_COLOR)
-    if img is None:
+    image = cv2.imread(image_path, cv2.IMREAD_COLOR)
+    if image is None:
         print(f"Failed to load image {image_path}")
         continue
 
-    # Convert to gray-scale
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # Blur the image to reduce noise
-    img_blur = cv2.medianBlur(gray, 5)
-    # Apply hough transform on the image
-    circles = cv2.HoughCircles(img_blur, cv2.HOUGH_GRADIENT, 1, img.shape[0]/32, param1=210, param2=42, minRadius=10, maxRadius=300)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(gray, (5, 5), 0)
 
-    # Draw detected circles
-    if circles is not None:
-        circles = np.uint16(np.around(circles))
-        for i in circles[0, :]:
-            # Draw outer circle
-            cv2.circle(img, (i[0], i[1]), i[2], (0, 255, 0), 2)
-            # Draw inner circle
-            cv2.circle(img, (i[0], i[1]), 2, (0, 0, 255), 3)
+    # Perform edge detection
+    edges = cv2.Canny(blur, 50, 300)
+
+    # Find contours
+    contours, _ = cv2.findContours(edges.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    # Classifying shapes
+    for contour in contours:
+        epsilon = 0.02 * cv2.arcLength(contour, True)
+        approx = cv2.approxPolyDP(contour, epsilon, True)
+        vertices = len(approx)
+        if vertices == 3:
+            shape = "Triangle"
+        elif vertices == 4:
+            (x, y, w, h) = cv2.boundingRect(approx)
+            ar = w / float(h)
+            shape = "square" if ar >= 0.95 and ar <= 1.05 else "rectangle"
+        elif vertices == 5:
+            shape = "Pentagon"
+        else:
+            shape = "Circle"
+        
+        cv2.drawContours(image, [approx], 0, (0, 255, 0), 2)
+        cv2.putText(image, shape, (approx[0][0][0], approx[0][0][1]+5), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
 
     # Display the results (optional)
-    cv2.imshow('Detected Circles', img)
+    cv2.imshow('Detected Circles', image)
     cv2.waitKey(0)
 
 cv2.destroyAllWindows()

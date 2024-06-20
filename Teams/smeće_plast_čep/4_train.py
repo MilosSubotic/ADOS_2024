@@ -11,7 +11,7 @@ results = model.train(
 	imgsz = 768,
 	#epochs = 100,
 	epochs = 10,
-	batch = -1,
+	batch = 0.8,
 	plots = True
 )
 
