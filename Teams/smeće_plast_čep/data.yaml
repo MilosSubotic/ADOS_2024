@@ -1,7 +1,7 @@
 path: /home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset
 
-train: images/train
-val: images/val
+train: train/
+val: val/
 
 nc: 7
 names: [
