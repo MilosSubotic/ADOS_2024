@@ -1,7 +1,1 @@
-black
-white
-red
-green
-blue
-yellow
-orange
+cep

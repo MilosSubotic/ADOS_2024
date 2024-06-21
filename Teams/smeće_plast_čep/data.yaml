@@ -3,13 +3,7 @@ path: /home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/datase
 train: train/
 val: val/
 
-nc: 7
+nc: 1
 names: [
-  'black',
-  'white',
-  'red',
-  'green',
-  'blue',
-  'yellow',
-  'orange'
+  'cep'
 ]

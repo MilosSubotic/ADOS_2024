@@ -4,7 +4,7 @@ import glob
 import os
 
 # Define the directory with images
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/train/'  # Path to the directory with images
+image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/train/images/'  # Path to the directory with images
 
 # Find all images in the directory (jpg, png, etc.)
 image_paths = glob.glob(os.path.join(image_dir, '*.*'))
