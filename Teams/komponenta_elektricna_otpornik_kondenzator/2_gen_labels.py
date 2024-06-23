@@ -3,8 +3,8 @@
 
 cfg = 'HSV_Thresholds.cfg.yaml'
 labeler = 'OpenCV/HSV/build/HSV_Labeler'
-images_dir = 'dataset/images/'
-labels_dir = 'dataset/gen_labels/'
+images_dir = 'dataset\train\images'
+labels_dir = 'dataset\train\labels'
 
 
 
