@@ -1,0 +1,9 @@
+path: /home/micuri/STEM/Computer_Engineering/RT-RK/git/ADOS_2024/Teams/lego/dataset
+
+train: images/train
+val: images/val
+
+nc: 1
+names: [
+  'pothole',
+]
