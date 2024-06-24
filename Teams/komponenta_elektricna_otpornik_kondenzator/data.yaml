@@ -1,4 +1,4 @@
-path: C:\Users\simke\OneDrive\Desktop\ADOS_2024\Teams\komponenta_elektricna_otpornik_kondenzator\dataset
+path: /home/sinisa/Desktop/ADOS_2024/Teams/komponenta_elektricna_otpornik_kondenzator/dataset
 
 train: train/images
 val: valid/images

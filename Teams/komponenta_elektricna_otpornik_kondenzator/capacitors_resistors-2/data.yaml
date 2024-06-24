@@ -1,0 +1,13 @@
+names:
+- capacitor
+- resistor
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: capacitors_resistors
+  url: https://universe.roboflow.com/ados-z5p8o/capacitors_resistors/dataset/2
+  version: 2
+  workspace: ados-z5p8o
+test: ../test/images
+train: capacitors_resistors-2/train/images
+val: capacitors_resistors-2/valid/images

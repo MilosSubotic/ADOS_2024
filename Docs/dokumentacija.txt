@@ -1,0 +1,3 @@
+-Izvrsili smo labeliranje pomocu roboflow-a
+-Generisali smo labele pokretanjem gen_labels_roboflow.py 
+
