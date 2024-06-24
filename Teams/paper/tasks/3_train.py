@@ -7,10 +7,11 @@ model = YOLO("yolov8n.pt")
 
 # Train the model
 results = model.train(
-	data = "data.yaml",
+	data = "./cfg/data.yaml",
 	imgsz = 640,
 	#epochs = 100,
-	epochs = 10,
-	#batch = -1
+	epochs = 5,
+	batch = 8,
+    workers = 4,
 	plots = True
 )

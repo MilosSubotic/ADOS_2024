@@ -16,7 +16,10 @@ def process_images(input_dir, output_dir, classes):
     for subdir in subdirs:
         sub_input_dir = os.path.join(input_dir, subdir)
         sub_output_dir = os.path.join(output_dir, subdir)
+        contours_dir = os.path.join('./dataset/contours', subdir)
+        
         os.makedirs(sub_output_dir, exist_ok=True)  # Create subdirectory in output_dir if not exists
+        os.makedirs(contours_dir, exist_ok=True)    # Create subdirectory in contours if not exists
 
         # Process each image file in the subdirectory
         for image_name in os.listdir(sub_input_dir):
@@ -63,7 +66,6 @@ def process_images(input_dir, output_dir, classes):
 
                     # Process each contour for the current class
                     for contour in contours:
-
                         # Filter contours based on area
                         area = cv2.contourArea(contour)
                         if area < 2500:
@@ -83,12 +85,11 @@ def process_images(input_dir, output_dir, classes):
 
                         # Draw rectangle on the original image for visualization
                         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-
+                
                 # Export images with contour for debug
-                output_image_path = os.path.join('./dataset/contours', image_name)
+                output_image_path = os.path.join(contours_dir, image_name)
                 cv2.imwrite(output_image_path, image)
 
-                '''
                 # Prepare output file
                 output_file_path = os.path.join(sub_output_dir, os.path.splitext(image_name)[0] + '.txt')
 
@@ -105,8 +106,6 @@ def process_images(input_dir, output_dir, classes):
                     for class_config in classes:
                         class_name = class_config['class_name']
                         file.write(f"{class_name}\n")
-                '''
-                
 
     print("Labeling complete.")
 

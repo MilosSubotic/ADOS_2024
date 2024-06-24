@@ -7,9 +7,9 @@ classes:
       stop: 179
     S:
       start: 0
-      stop: 40
+      stop: 50
     V:
-      start: 190
+      start: 200
       stop: 255
   - class_name: zuti_papiric
     class_id: 1
@@ -21,6 +21,6 @@ classes:
       start: 100
       stop: 255
     V:
-      start: 50
+      start: 150
       stop: 255
   
