@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # Define the source directory and the new destination directory paths
-img_dir = '/home/aleksandar/Desktop/scaled_images'
+img_dir = '/home/aleksandar/Desktop/nove'
 dest_dir = '/home/aleksandar/Desktop/compressed_images'
 
 # Ensure the destination directory exists
