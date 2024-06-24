@@ -3,7 +3,7 @@ import glob
 from shutil import move, rmtree
 from PIL import Image
 
-IMG_DIR = 'C:/Users/Vuk Antovic/Desktop/ADOS_2024/Teams/korov_krompir/dataset/images/val'
+IMG_DIR = 'C:/Users/Vuk Antovic/Desktop/ADOS_2024/Teams/korov_krompir/dataset/images/train'
 TMP_DIR = os.path.join(IMG_DIR, 'tmp')
 
 # Create temporary directory
@@ -15,6 +15,7 @@ for filename in glob.glob(os.path.join(IMG_DIR, '*.jpg')):
     img = img.resize((640, 480))
     new_filename = os.path.join(TMP_DIR, os.path.basename(filename))
     img.save(new_filename)
+    print(new_filename)
 
 # Remove original .jpg files
 for filename in glob.glob(os.path.join(IMG_DIR, '*.jpg')):
