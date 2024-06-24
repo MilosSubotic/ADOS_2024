@@ -1,3 +1,6 @@
+path: /home/sinisa/Desktop/ADOS_2024/Teams/komponenta_elektricna_otpornik_kondenzator/dataset
+
+
 names:
 - capacitor
 - resistor
@@ -9,5 +12,5 @@ roboflow:
   version: 2
   workspace: ados-z5p8o
 test: ../test/images
-train: capacitors_resistors-2/train/images
-val: capacitors_resistors-2/valid/images
+train: train/images
+val: valid/images
