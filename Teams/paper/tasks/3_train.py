@@ -12,6 +12,6 @@ results = model.train(
 	#epochs = 100,
 	epochs = 5,
 	batch = 8,
-    workers = 4,
+    workers = 8,
 	plots = True
 )
