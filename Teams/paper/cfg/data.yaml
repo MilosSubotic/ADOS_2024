@@ -1,0 +1,10 @@
+path: /home/mihailo/Desktop/ADOS_2024/Teams/paper/dataset
+
+train: images/train
+val: images/val
+
+nc: 2
+names: [
+  'beli_papiric',
+  'zuti_papiric'
+]
