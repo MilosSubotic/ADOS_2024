@@ -4,7 +4,7 @@ import os
 import glob
 
 # Definisanje direktorijuma sa slikama
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/images/train/'  # Putanja do direktorijuma sa slikama
+image_dir = '/home/aleksandar/Desktop/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/train/images'  # Putanja do direktorijuma sa slikama
 
 # Pronađi sve slike u direktorijumu (jpg, png, itd.)
 image_paths = glob.glob(os.path.join(image_dir, '*.*'))
