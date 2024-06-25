@@ -13,7 +13,7 @@ classes:
       stop: 255
   - class_name: zuti_papiric
     class_id: 1
-    bb_color: [255, 0, 0]
+    bb_color: [0, 0, 255]
     H:
       start: 25
       stop: 35

@@ -1,7 +1,8 @@
 #!/bin/bash
 
-IMG_DIR=
-DST_DIR=
+IMG_DIR=" "   # Set source path (images to convert)
+DST_DIR=" "   # Set destination path (folder to move converted images)
+
 TMP_DIR="$IMG_DIR/tmp"
 total_files=$(find "$IMG_DIR" -type f \( -name "*.jpg" -o -name "*.jpeg" \) | wc -l)
 processed_files=0

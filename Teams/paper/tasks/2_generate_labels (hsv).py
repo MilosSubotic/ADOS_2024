@@ -1,4 +1,4 @@
-import cv2
+import cv2  #OpenCV
 import numpy as np
 import yaml
 import os
@@ -11,8 +11,10 @@ def read_config(config_file):
 
 # Function to process images
 def process_images(input_dir, output_dir, classes):
-    # Setup the paths
+    # List subdirectories
     subdirs = os.listdir(input_dir)  # subdirs = [test, train, val]
+
+    # Proccess every subdirectory
     for subdir in subdirs:
         sub_input_dir = os.path.join(input_dir, subdir)  # images/ + subdir
         sub_output_dir = os.path.join(output_dir, subdir)  # labels/ + subdir
@@ -24,13 +26,14 @@ def process_images(input_dir, output_dir, classes):
         # Process each image in the subdirectory
         for image_name in os.listdir(sub_input_dir):
             if image_name.endswith(('.jpg', '.jpeg', '.png')):
-
                 # Read the image
                 image_path = os.path.join(sub_input_dir, image_name)
                 image = cv2.imread(image_path)
                 if image is None:
                     continue
-                image_height, image_width, _ = image.shape
+
+                # Extract image dimensions
+                image_height, image_width, _ = image.shape  
 
                 # Convert the image to HSV color space
                 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
@@ -51,17 +54,8 @@ def process_images(input_dir, output_dir, classes):
                     v_start = class_config['V']['start']
                     v_stop = class_config['V']['stop']
 
-                    # Handle the hue range
-                    if h_start > h_stop:
-                        lower_mask1 = cv2.inRange(hsv_image, 
-                                                  np.array([h_start, s_start, v_start]),
-                                                  np.array([180, s_stop, v_stop]))
-                        lower_mask2 = cv2.inRange(hsv_image, 
-                                                  np.array([0, s_start, v_start]),
-                                                  np.array([h_stop, s_stop, v_stop]))
-                        mask = cv2.bitwise_or(lower_mask1, lower_mask2)
-                    else:
-                        mask = cv2.inRange(hsv_image, 
+                    # Make mask with HSV parameters
+                    mask = cv2.inRange(hsv_image, 
                                            np.array([h_start, s_start, v_start]),
                                            np.array([h_stop, s_stop, v_stop]))
 
@@ -70,16 +64,15 @@ def process_images(input_dir, output_dir, classes):
 
                     # Process each contour for the current class
                     for contour in contours:
-
                         # Filter contours based on area
                         area = cv2.contourArea(contour)
-                        if area < 2500:
+                        if area < 2500:  # Filter small, irrelevant objects
                             continue
 
-                        # Get bounding box coordinates
+                        # Get bounding box values
                         x, y, w, h = cv2.boundingRect(contour)
 
-                        # Calculate normalized coordinates
+                        # Calculate normalized values (scale to [0,1] range)
                         x_center = (x + w / 2) / image_width
                         y_center = (y + h / 2) / image_height
                         width = w / image_width
@@ -88,14 +81,12 @@ def process_images(input_dir, output_dir, classes):
                         # Store bounding box information
                         all_bounding_boxes.append((class_config['class_id'], x_center, y_center, width, height))
 
-                        # Draw rectangle(bounding box) on the original image for visualization
-                        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-                
+                        # Draw rectangle(bounding box) on the image for visualization
+                        cv2.rectangle(image, (x, y), (x + w, y + h), class_config['bb_color'], 2)
                 
                 # Export images with bounding boxes for debug
                 output_image_path = os.path.join(contours_dir, image_name)
                 cv2.imwrite(output_image_path, image)
-				
 				
                 # Write labels for every image in current subdirectory
                 output_file_path = os.path.join(sub_output_dir, os.path.splitext(image_name)[0] + '.txt')
