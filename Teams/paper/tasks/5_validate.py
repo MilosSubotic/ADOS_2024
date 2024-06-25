@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "../../Common/SW/"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../../../Common/SW/"))
 from common.utils import show
 from ultralytics import YOLO
 
