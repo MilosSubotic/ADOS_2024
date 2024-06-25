@@ -9,9 +9,8 @@ model = YOLO("yolov8n.pt")
 results = model.train(
 	data = "data.yaml",
 	imgsz = 768,
-	#epochs = 100,
-	epochs = 10,
-	batch = 0.8,
+	epochs = 50,
+	batch = 0.9,
 	plots = True
 )
 
