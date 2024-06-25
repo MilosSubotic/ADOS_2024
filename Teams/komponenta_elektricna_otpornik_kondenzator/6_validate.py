@@ -19,4 +19,4 @@ def val(model_pt):
 
 
 val("yolov8n.pt")
-val("runs/detect/train2/weights/best.pt")
+val("runs/detect/train/weights/best.pt")
