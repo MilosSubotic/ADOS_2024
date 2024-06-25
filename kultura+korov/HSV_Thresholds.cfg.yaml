@@ -1,0 +1,37 @@
+classes:
+  - class_name: soja
+    class_id: 0
+    bb_color: [0, 255, 0]
+    H:
+      start: 60
+      stop: 80
+    S:
+      start: 80
+      stop: 255
+    V:
+      start: 0
+      stop: 255
+  - class_name: korov
+    class_id: 1
+    bb_color: [0, 255, 0]
+    H:
+      start: 60
+      stop: 80
+    S:
+      start: 80
+      stop: 255
+    V:
+      start: 0
+      stop: 255
+  - class_name: soja_korov
+    class_id: 2
+    bb_color: [0, 255, 0]
+    H:
+      start: 60
+      stop: 80
+    S:
+      start: 80
+      stop: 255
+    V:
+      start: 0
+      stop: 255

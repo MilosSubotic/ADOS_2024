@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+from ultralytics import YOLO
+
+# Load a model
+model = YOLO("yolov8n.pt") 
+
+# Train the model
+results = model.train(
+	data = "/home/tonke9/ADOS24/ADOS_2024/kultura+korov/data.yaml",
+	imgsz = 640,
+	#epochs = 100,
+	epochs = 10,
+	#batch = -1
+	plots = True
+)
+
