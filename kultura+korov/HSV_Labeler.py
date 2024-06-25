@@ -19,8 +19,7 @@ for label_dir in dirs.values():
 # Predefined HSV thresholds for each class
 hsv_thresholds = {
     'soja': {'hMin': 60, 'hMax': 80, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255},
-    'korov': {'hMin': 35, 'hMax': 50, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255},
-    'soja_korov': {'hMin': 45, 'hMax': 65, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255}
+    'korov': {'hMin': 35, 'hMax': 50, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255}
 }
 
 def process_image(image_path, label_dir):

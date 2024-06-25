@@ -3,9 +3,8 @@ path: /home/tonke9/ADOS24/ADOS_2024/kultura+korov/dataset
 train: train/images
 val: valid/images
 
-nc: 3
+nc: 2
 names: [
   'soja',
-  'korov',
-  'soja_korov',
+  'korov'
 ]
