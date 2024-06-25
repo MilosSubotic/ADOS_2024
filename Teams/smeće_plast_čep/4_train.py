@@ -10,7 +10,7 @@ results = model.train(
 	data = "data.yaml",
 	imgsz = 768,
 	epochs = 50,
-	batch = 0.9,
+	batch = -1,
 	plots = True
 )
 

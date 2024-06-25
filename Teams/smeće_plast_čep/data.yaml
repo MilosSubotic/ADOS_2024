@@ -2,8 +2,14 @@ train: ../train/images
 val: ../val/images
 test: ../test/images
 
-nc: 1
-names: ['cep']
+nc: 7
+names: ['black',
+        'white',
+        'red',
+        'green',
+        'blue',
+        'yellow',
+        'orange']
 
 roboflow:
   workspace: stefan-zivanic

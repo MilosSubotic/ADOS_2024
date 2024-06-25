@@ -4,10 +4,10 @@ import os
 import glob
 
 # Define the directory with images
-image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/val/images/'  # Path to the directory with images
+image_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/train/images/'  # Path to the directory with images
 
 # Path to save YOLO format annotations
-annotation_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/val/labels'
+annotation_dir = '/home/stefziv/Documents/ADOS/ADOS_2024_FORK/Teams/smeće_plast_čep/dataset/train/labels'
 
 # Create the directory for YOLO annotations if it doesn't exist
 os.makedirs(annotation_dir, exist_ok=True)
@@ -24,6 +24,17 @@ color_ranges = {
     'blue': ([90, 50, 70], [128, 255, 255]),
     'yellow': ([25, 50, 70], [35, 255, 255]),
     'orange': ([9, 100, 100], [29, 255, 255])
+}
+
+# Ovaj deo koda samo za hsv, za robo izbrisati
+class_map = {
+    'black': 0,
+    'white': 1,
+    'red': 2,
+    'green': 3,
+    'blue': 4,
+    'yellow': 5,
+    'orange': 6
 }
 
 # Function to save YOLO format annotations
@@ -93,7 +104,7 @@ for image_path in image_paths:
             points = np.argwhere(labels_im == i)
             x_min, y_min = points.min(axis=0)
             x_max, y_max = points.max(axis=0)
-            boxes.append((0, x_min, y_min, x_max, y_max))
+            boxes.append((class_map[color], x_min, y_min, x_max, y_max))
 
     # Save YOLO format annotations
     save_yolo_annotation(image_path, boxes, image_width, image_height)
