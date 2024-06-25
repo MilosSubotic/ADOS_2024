@@ -11,19 +11,20 @@ def read_config(config_file):
 
 # Function to process images
 def process_images(input_dir, output_dir, classes):
-    # Process each image in the input directory
-    subdirs = os.listdir(input_dir)
+    # Setup the paths
+    subdirs = os.listdir(input_dir)  # subdirs = [test, train, val]
     for subdir in subdirs:
-        sub_input_dir = os.path.join(input_dir, subdir)
-        sub_output_dir = os.path.join(output_dir, subdir)
-        contours_dir = os.path.join('./dataset/contours', subdir)
+        sub_input_dir = os.path.join(input_dir, subdir)  # images/ + subdir
+        sub_output_dir = os.path.join(output_dir, subdir)  # labels/ + subdir
+        contours_dir = os.path.join('./dataset/contours', subdir)  # countours/ + subdir
         
         os.makedirs(sub_output_dir, exist_ok=True)  # Create subdirectory in output_dir if not exists
         os.makedirs(contours_dir, exist_ok=True)    # Create subdirectory in contours if not exists
 
-        # Process each image file in the subdirectory
+        # Process each image in the subdirectory
         for image_name in os.listdir(sub_input_dir):
             if image_name.endswith(('.jpg', '.jpeg', '.png')):
+
                 # Read the image
                 image_path = os.path.join(sub_input_dir, image_name)
                 image = cv2.imread(image_path)
@@ -39,11 +40,14 @@ def process_images(input_dir, output_dir, classes):
 
                 # Process each class defined in the configuration
                 for class_config in classes:
+
                     # Define HSV range for the current class
                     h_start = class_config['H']['start']
                     h_stop = class_config['H']['stop']
+
                     s_start = class_config['S']['start']
                     s_stop = class_config['S']['stop']
+
                     v_start = class_config['V']['start']
                     v_stop = class_config['V']['stop']
 
@@ -66,6 +70,7 @@ def process_images(input_dir, output_dir, classes):
 
                     # Process each contour for the current class
                     for contour in contours:
+
                         # Filter contours based on area
                         area = cv2.contourArea(contour)
                         if area < 2500:
@@ -83,18 +88,17 @@ def process_images(input_dir, output_dir, classes):
                         # Store bounding box information
                         all_bounding_boxes.append((class_config['class_id'], x_center, y_center, width, height))
 
-                        # Draw rectangle on the original image for visualization
+                        # Draw rectangle(bounding box) on the original image for visualization
                         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 
                 
-                # Export images with contour for debug
+                # Export images with bounding boxes for debug
                 output_image_path = os.path.join(contours_dir, image_name)
                 cv2.imwrite(output_image_path, image)
 				
 				
                 # Write labels for every image in current subdirectory
                 output_file_path = os.path.join(sub_output_dir, os.path.splitext(image_name)[0] + '.txt')
-
                 with open(output_file_path, 'w') as file:
                     for bbox_info in all_bounding_boxes:
                         class_id, x_center, y_center, width, height = bbox_info
@@ -102,7 +106,6 @@ def process_images(input_dir, output_dir, classes):
 
                 # Write classes.txt file for the current subdirectory
                 classes_txt_path = os.path.join(sub_output_dir, 'classes.txt')
-
                 with open(classes_txt_path, 'w') as file:
                     for class_config in classes:
                         class_name = class_config['class_name']
