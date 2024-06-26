@@ -1,0 +1,15 @@
+path: /home/jovan/Documents/ADOS/dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['cola', 'fanta', 'guarana', 'pepsi']
+
+roboflow:
+  workspace: ados-t1vnc
+  project: ados-projekat
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/ados-t1vnc/ados-projekat/dataset/1
