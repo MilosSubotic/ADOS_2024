@@ -1,49 +1,26 @@
 classes:
-  - class_name: red_lego
+  - class_name: good_quality_banana
     class_id: 0
-    bb_color: [255, 0, 0]
-    H:
-      start: 175
-      stop: 5
-    S:
-      start: 80
-      stop: 255
-    V:
-      start: 0
-      stop: 255
-  - class_name: green_lego
-    class_id: 1
-    bb_color: [0, 255, 0]
-    H:
-      start: 60
-      stop: 80
-    S:
-      start: 80
-      stop: 255
-    V:
-      start: 0
-      stop: 255
-  - class_name: blue_lego
-    class_id: 2
-    bb_color: [0, 0, 255]
-    H:
-      start: 110
-      stop: 130
-    S:
-      start: 80
-      stop: 255
-    V:
-      start: 0
-      stop: 255
-  - class_name: yellow_lego
-    class_id: 3
-    bb_color: [255, 255, 0]
-    H:
-      start: 10
-      stop: 30
-    S:
+    bb_color: [255, 255, 0]  # Example bounding box color (yellow)
+    H_quality:
+      start: 20
+      stop: 50
+    S_quality:
       start: 100
       stop: 255
-    V:
-      start: 0
+    V_quality:
+      start: 150
       stop: 255
+
+  - class_name: bad_quality_banana
+    class_id: 1
+    bb_color: [255, 0, 0]  # Example bounding box color (red)
+    H_quality:
+      start: 0
+      stop: 20
+    S_quality:
+      start: 0
+      stop: 70
+    V_quality:
+      start: 0
+      stop: 120
