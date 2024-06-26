@@ -1,14 +1,49 @@
 classes:
-  - class_name: potholes
+  - class_name: red_lego
     class_id: 0
     bb_color: [255, 0, 0]
     H:
-      start: 160
-      stop: 20
+      start: 175
+      stop: 5
     S:
-      start: 50
+      start: 80
       stop: 255
     V:
-      start: 30
-      stop: 220
-
+      start: 0
+      stop: 255
+  - class_name: green_lego
+    class_id: 1
+    bb_color: [0, 255, 0]
+    H:
+      start: 60
+      stop: 80
+    S:
+      start: 80
+      stop: 255
+    V:
+      start: 0
+      stop: 255
+  - class_name: blue_lego
+    class_id: 2
+    bb_color: [0, 0, 255]
+    H:
+      start: 110
+      stop: 130
+    S:
+      start: 80
+      stop: 255
+    V:
+      start: 0
+      stop: 255
+  - class_name: yellow_lego
+    class_id: 3
+    bb_color: [255, 255, 0]
+    H:
+      start: 10
+      stop: 30
+    S:
+      start: 100
+      stop: 255
+    V:
+      start: 0
+      stop: 255
