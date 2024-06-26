@@ -1,0 +1,53 @@
+classes:
+  - class_name: lav_cep
+    class_id: 0
+    min_size: 50
+    bb_color: [255, 0, 0]
+    H:
+      start: 100
+      stop: 146
+    S:
+      start: 73
+      stop: 255
+    V:
+      start: 127
+      stop: 255
+  - class_name: jelen_cep
+    class_id: 0
+    min_size: 50
+    bb_color: [ 0, 255, 255 ]
+    H:
+     start: 16
+     stop: 39
+    S:
+     start: 105
+     stop: 255
+    V:
+     start: 159
+     stop: 255
+  - class_name: zajecarsko_limenka
+    class_id: 2
+    min_size: 1000
+    bb_color: [ 0, 0, 255 ]
+    H:
+     start: 0
+     stop: 6
+    S:
+     start: 62
+     stop: 255
+    V:
+     start: 0
+     stop: 255
+  - class_name: flasa
+    class_id: 1
+    min_size: 500
+    bb_color: [ 0, 255, 0 ]
+    H:
+      start: 63
+      stop: 100
+    S:
+      start: 88
+      stop: 255
+    V:
+      start: 40
+      stop: 255

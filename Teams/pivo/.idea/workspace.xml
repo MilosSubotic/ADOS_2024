@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f066706-b155-4002-b903-65e608c71108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mask_preview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/1_compress_imgs.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560879.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560879.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560892.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560892.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560900.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560900.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560909.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560909.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560996.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890560996.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561038.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561038.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561050.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561050.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561070.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561070.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561085.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561085.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561124.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561124.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561132.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561132.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561142.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561142.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561159.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561166.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561166.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561173.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561173.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561181.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561181.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561203.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561213.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561213.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561223.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561223.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561233.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561233.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561260.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561260.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561278.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561278.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561291.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561291.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561302.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561302.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561323.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561323.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561332.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561332.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561341.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561341.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561348.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561348.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561365.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561365.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561374.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561374.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561382.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561382.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561391.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561391.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561407.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561407.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561416.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561416.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561423.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561423.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561431.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561431.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561448.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561448.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561457.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561457.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561465.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561465.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561473.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561473.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561489.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561489.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561496.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561496.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561504.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561504.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561514.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561514.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561531.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561531.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561540.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561540.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561549.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561549.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561558.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561558.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561579.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561579.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561587.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561587.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561598.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561598.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561608.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561608.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561627.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561627.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561635.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561644.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561644.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561653.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561653.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561671.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561671.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561681.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561681.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561690.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561690.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561699.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561699.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561717.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561717.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561726.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561726.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561735.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561735.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561743.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561743.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561760.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561760.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561769.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561769.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561778.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561778.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561786.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561786.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561804.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561804.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561824.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561824.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561846.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561846.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561856.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561856.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561898.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../lego/dataset/images/train/1715890561898.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2iBxfq0Rv6iJdhZ6dkBjCjVUEPH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2_gen_labels.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/stefan/ADOS_2024/Teams/pivo/venv/lib/python3.12/site-packages&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f066706-b155-4002-b903-65e608c71108" name="Changes" comment="" />
+      <created>1718977878199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718977878199</updated>
+    </task>
+    <servers />
+  </component>
+</project>
