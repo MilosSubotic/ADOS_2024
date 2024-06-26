@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import os
 import time
 
-model = YOLO("runs/detect/train/weights/last.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 input_path = "runs/detect/input"
 output_path = "runs/detect/output"
