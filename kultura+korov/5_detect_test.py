@@ -6,12 +6,12 @@ from ultralytics import YOLO
 import glob
 
 # Load a model
-model = YOLO("runs/detect/train2/weights/best.pt")
+model = YOLO("runs/detect/train424/weights/best.pt")
 
-imgs = glob.glob('dataset/images/train/*.jpg')
+imgs = glob.glob('/home/tonke9/ADOS24/ADOS_2024/kultura+korov/dataset/train/images/*.jpg')
 
 '''
-#model.predict(source='dataset/images/train/', show=True)
+#model.predict(source='/home/tonke9/ADOS24/ADOS_2024/kultura+korov/dataset/train/images', show=True)
 model(imgs[0])[0].show()
 
 res_plot = model(imgs[0])[0].plot()

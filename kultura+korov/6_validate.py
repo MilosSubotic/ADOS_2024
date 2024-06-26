@@ -1,8 +1,8 @@
-
+#6_validate.py
 
 import os
 import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "/home/tonke9/ADOS24/ADOS_2024/Common/SW/common/"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../../Common/SW/common/"))
 from common.utils import show
 
 from ultralytics import YOLO
@@ -19,4 +19,4 @@ def val(model_pt):
 
 
 val("yolov8n.pt")
-val("runs/detect/train2/weights/best.pt")
+val("runs/detect/train424/weights/best.pt")
