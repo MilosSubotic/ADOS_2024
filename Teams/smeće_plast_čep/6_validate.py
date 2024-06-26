@@ -18,5 +18,5 @@ def val(model_pt):
     print()
 
 
-val("yolov8n.pt")
-val("runs/detect/train2/weights/best.pt")
+#val("yolov8n.pt")
+val("runs/detect/train6/weights/best.pt")
