@@ -1,0 +1,5 @@
+0 accumulator
+1 alternator
+2 antifreeze_tank
+3 fuse_box
+4 high_pressure_pump
