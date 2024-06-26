@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import os
 
-# Directory paths for training and validation datasets
 base_dir = '/home/tonke9/ADOS24/ADOS_2024/kultura+korov/dataset/'
 dirs = {
     'train_images': os.path.join(base_dir, 'train/images'),
@@ -11,12 +10,10 @@ dirs = {
     'valid_labels': os.path.join(base_dir, 'valid/labels')
 }
 
-# Create label directories if they do not exist
 for label_dir in dirs.values():
     if 'labels' in label_dir:
         os.makedirs(label_dir, exist_ok=True)
 
-# Predefined HSV thresholds for each class
 hsv_thresholds = {
     'soja': {'hMin': 60, 'hMax': 80, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255},
     'korov': {'hMin': 35, 'hMax': 50, 'sMin': 80, 'sMax': 255, 'vMin': 0, 'vMax': 255}
@@ -53,7 +50,6 @@ def save_labels(image_path, boxes, img_shape, label_dir):
             bbox_height = (ey - iy) / height
             f.write(f'{class_id} {x_center} {y_center} {bbox_width} {bbox_height}\n')
 
-# Process images in both train and valid directories
 for phase in ['train', 'valid']:
     image_dir = dirs[f'{phase}_images']
     label_dir = dirs[f'{phase}_labels']
