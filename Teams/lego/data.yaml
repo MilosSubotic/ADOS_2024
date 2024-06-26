@@ -1,9 +1,12 @@
-path: /home/ana/Desktop/ADOS_2024/pothole_detection/dataset/
+path: /home/micuri/STEM/Computer_Engineering/RT-RK/git/ADOS_2024/Teams/lego/dataset
 
-train: train/images
-val: valid/images
+train: images/train
+val: images/val
 
-nc: 1
+nc: 4
 names: [
-  'potholes',
+  'red_lego',
+  'green_lego',
+  'blue_lego',
+  'yellow_lego',
 ]
