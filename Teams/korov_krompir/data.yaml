@@ -1,0 +1,9 @@
+path: C:/Users/Vuk Antovic/Desktop/ADOS_2024/Teams/korov_krompir/dataset/
+
+train: images/train
+val: images/val
+
+nc: 1
+names: [
+  'korov'
+]

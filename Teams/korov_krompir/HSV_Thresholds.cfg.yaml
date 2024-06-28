@@ -1,0 +1,13 @@
+classes:
+  - class_name: korov
+    class_id: 0
+    bb_color: [255, 0, 0]
+    H:
+      start: 35
+      stop: 100
+    S:
+      start: 50
+      stop: 255
+    V:
+      start: 0
+      stop: 255
