@@ -1,0 +1,26 @@
+classes:
+  - class_name: good_quality_banana
+    class_id: 0
+    bb_color: [255, 255, 0]  # Example bounding box color (yellow)
+    H_quality:
+      start: 20
+      stop: 50
+    S_quality:
+      start: 100
+      stop: 255
+    V_quality:
+      start: 150
+      stop: 255
+
+  - class_name: bad_quality_banana
+    class_id: 1
+    bb_color: [255, 0, 0]  # Example bounding box color (red)
+    H_quality:
+      start: 0
+      stop: 20
+    S_quality:
+      start: 0
+      stop: 70
+    V_quality:
+      start: 0
+      stop: 120

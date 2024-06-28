@@ -1,0 +1,10 @@
+path: C:\Users\radov\Desktop\ADOS\ADOS_2024\Teams\banana\dataset
+
+train: images\train
+val: images\val
+
+nc: 2
+names: [
+  'very_ripe_banana',
+  'ripe_banana',
+]
