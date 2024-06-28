@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['accumulator', 'alternator', 'antifreeze_tank', 'fuse_box', 'high_pressure_pump']
+
+roboflow:
+  workspace: ftn-ohkic
+  project: yolov8-seg-custom-ehvu0
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ftn-ohkic/yolov8-seg-custom-ehvu0/dataset/3
