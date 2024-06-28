@@ -1,0 +1,5 @@
+names: ['bad weed']
+nc: 1
+test: /home/petmar/Documents/codes/yolo_demo/datasets/weeds/test/images
+train: /home/petmar/Documents/codes/yolo_demo/datasets/weeds/train/images
+val: /home/petmar/Documents/codes/yolo_demo/datasets/weeds/valid/images
