@@ -1,0 +1,26 @@
+classes:
+  - class_name: beli_papiric
+    class_id: 0
+    bb_color: [255, 0, 0]
+    H:
+      start: 0
+      stop: 179
+    S:
+      start: 0
+      stop: 50
+    V:
+      start: 200
+      stop: 255
+  - class_name: zuti_papiric
+    class_id: 1
+    bb_color: [0, 0, 255]
+    H:
+      start: 25
+      stop: 35
+    S:
+      start: 100
+      stop: 255
+    V:
+      start: 150
+      stop: 255
+  
