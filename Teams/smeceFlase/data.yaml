@@ -1,0 +1,8 @@
+#path: C:/Users/user/Desktop/adosProj/ADOS_2024/Teams/smeceFlase/dataset
+
+train: C:/Users/user/Desktop/adosProj/ADOS_2024/Teams/smeceFlase/dataset/images/train
+val:  C:/Users/user/Desktop/adosProj/ADOS_2024/Teams/smeceFlase/dataset/images/val
+nc: 1
+names: [
+  'smece'
+]
