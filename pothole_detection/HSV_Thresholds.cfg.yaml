@@ -1,0 +1,14 @@
+classes:
+  - class_name: pothole
+    class_id: 0
+    bb_color: [255, 0, 0]
+    H:
+      start: 0
+      stop: 180
+    S:
+      start: 0
+      stop: 255
+    V:
+      start: 0
+      stop: 255
+

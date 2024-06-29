@@ -1,0 +1,9 @@
+path: C:\Users\anaze\Desktop\ADOS_2024\pothole_detection\dataset
+
+train: images/train
+val: images/val
+
+nc: 1
+names: [
+  'pothole',
+]
