@@ -1,0 +1,8 @@
+-Uslikane 2 klase po 200 slika otpornika i kondenzatora
+-Koriscen IrfanView 64 za resizovanje slika
+-Izvrsili smo labeliranje pomocu roboflow-a
+-Generisali smo labele pokretanjem gen_labels_roboflow.py 
+-Treniranje pomocu YOLOv8 modela pokretanjem 4_train.py
+-Predikcija se radi pokretanjem detect.py
+-Rezultati predikcije se nalaze u runs/detect/output
+-Uradjena predikcija sa best.pt i last.pt tezinama neuronskih mreza, nije uocena velika razlika
