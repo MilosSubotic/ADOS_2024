@@ -1,0 +1,10 @@
+path: /home/tonke9/ADOS24/ADOS_2024/kultura+korov/dataset
+
+train: train/images
+val: valid/images
+
+nc: 2
+names: [
+  'soja',
+  'korov'
+]
