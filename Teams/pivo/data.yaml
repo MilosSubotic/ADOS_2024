@@ -1,0 +1,13 @@
+train: datasets/train/images
+val: datasets/valid/images
+test: datasets/test/images
+
+nc: 3
+names: ['cep', 'flasa', 'limenka']
+
+roboflow:
+  workspace: yolo-p1ljp
+  project: ados-xdcq5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-p1ljp/ados-xdcq5/dataset/1
