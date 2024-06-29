@@ -1,40 +1,38 @@
-Team name	Actual name	Match	classes	Taken	Student 1			Student 2			Student 3			Student 4		
-																
-MAX BODOVA		FALSE														
-lego		FALSE	4	1	Милош	Суботић	DP 7/2015									
-smeće_pikavac		FALSE		1	Вук	Квежевић	РА 76/2021	Данило	Бајић	РА 238/2021	Петар	Ланговић	РА 65/2021			
-smeće_plast_flaša	smeceFlase	FALSE		1	Лука	Мисојчић	РА 51/2021	Јелена	Гајић	РА 15/2015						
-smeće_plast_čep	smeće_plast_čep	TRUE	1	1	Стефан	Живанић	РА 43/2021	Александар	Ћетковић	РА 24/2021						
-smeće_pivske_flaše_čepovi_limenke	pivo	FALSE	3	1	Ана	Мујић	РA 58/2021	Стефан	Митић	РА 216/2021	Михаило	Магош	РА 219/2021	Жарко	Марић	РА 225/2021
-smeće_pivske_flaše		FALSE	1	1?	Мина	Савић	РА 174/2019	Дарио	Петковић	РА 204/2019						
-smeće_limenka	smece_limenka	FALSE	4	1	Дражен	Гајић	РА 224/2020	Јован	Црнчевић	РА 129/2021						
-smeće_papirić	paper	FALSE	2	1	Михаило	Дикановић	РА 84/2021	Владан	Лазаревић	РА 92/2020	Алекса	Ђурђевић	РА 85/2021			
-smeće_kesa_papirić		FALSE	3	1	Младен	Базина	РА 194/2020	Жарко	Остојић	РА 192/2020						
-korov	weeder	FALSE		1	Петар	Марковић	РА 112/2021									
-korov_kromip		FALSE		1	Анте	Решетар	РА 61/2021	Александар	Ивановић	РА 79/2021	Никола	Бошковић	РА 39/2021	Вук	Антовић	РА 52/2021
-korov_kultura	../kultura+korov	FALSE		1	Богдан	Петрић	РА 113/2021	Никола	Тонић	РА 170/2018						
-plod_na_biljci_jagoda_zrelost		FALSE	2	1	Стефан	Малешевић	РА 235/2021	Огњен	Поповић	РА 217/2021	Немања	Савић	РА 231/2021	Лазар	Миловановић	РА 128/2021
-plod_na_biljci_kruška		FALSE														
-plod_na_biljci_malina		FALSE														
-plod_na_biljci_kupina		FALSE														
-plod_na_biljci_grožđe		FALSE														
-plod_na_biljci_paradajiz		FALSE														
-plod_na_biljci_krastavac		FALSE														
-plod_na_biljci_buranija		FALSE														
-komponenta_električna_otpornik_kondezator	komponenta_električna_otpornik_kondezator	TRUE	2	1	Синиша	Илић	РА 153/2021	Јана	Петровић	РА 159/2021						
-komponenta_mašinska_matica		FALSE														
-komponenta_mašinska_matica_leptir		FALSE														
-komponenta_mašinska_matica_šešir		FALSE														
-komponenta_šraf_hex		FALSE														
-komponenta_šraf_imbus		FALSE														
-komponenta_šraf_konus_krstak		FALSE														
-komponenta_šraf_turban		FALSE														
-komponenta_šraf_sočivast		FALSE														
-rupe_na_putu	../pothole_detection	FALSE	1	1	Вукашин	Матовић	РА 182/2021	Ана	Зец	РА 92/2021						
-kvalitet_banana	banana	FALSE	3	1	Петар	Милинковић	РА 173/2020	Стефан	Радовановић	РА 176/2021						
-kvalitet_paprika_roga		FALSE														
-kvalitet_paprika_babura		FALSE														
-kvalitet_paradajiz		FALSE														
-elektronika		FALSE	3	1	Филип	Параг	РА 122/2018									
-auto_delovi	auto_delovi	1	5	1	Марија	Нинковић	РА 99/2021	Милан	Штрбац	РА 120/2021						
-slova_gluvonemi		0	6	1	Душица	Валентировић	РА 193/2021	Марко	Пушковић	РА 230/2021						
+Team name	classes	Taken	Student 1			Student 2			Student 3			Student 4		
+lego	4	1	Милош	Суботић	DP 7/2015									
+smeće_pikavac		1	Вук	Квежевић	РА 76/2021	Данило	Бајић	РА 238/2021	Петар	Ланговић	РА 65/2021			
+smeće_plast_flaša		1	Лука	Мисојчић	РА 51/2021	Јелена	Гајић	РА 15/2015						
+smeće_plast_čep	1	1	Стефан	Живанић	РА 43/2021	Александар	Ћетковић	РА 24/2021						
+smeće_pivske_flaše_čepovi_limenke	3	1	Ана	Мујић	РA 58/2021	Стефан	Митић	РА 216/2021	Михаило	Магош	РА 219/2021	Жарко	Марић	РА 225/2021
+smeće_pivske_flaše	1	1	Мина	Савић	РА 174/2019	Дарио	Петковић	РА 204/2019						
+smeće_limenka	4	1	Дражен	Гајић	РА 224/2020	Јован	Црнчевић	РА 129/2021						
+smeće_papirić	2	1	Михаило	Дикановић	РА 84/2021	Владан	Лазаревић	РА 92/2020	Алекса	Ђурђевић	РА 85/2021			
+smeće_kesa_papirić	3	1	Младен	Базина	РА 194/2020	Жарко	Остојић	РА 192/2020						
+korov		1	Петар	Марковић	РА 112/2021									
+korov_kromip		1	Анте	Решетар	РА 61/2021	Александар	Ивановић	РА 79/2021	Никола	Бошковић	РА 39/2021	Вук	Антовић	РА 52/2021
+korov_kultura		1	Богдан	Петрић	РА 113/2021	Никола	Тонић	РА 170/2018						
+plod_na_biljci_jagoda_zrelost	2	1	Стефан	Малешевић	РА 235/2021	Огњен	Поповић	РА 217/2021	Немања	Савић	РА 231/2021	Лазар	Миловановић	РА 128/2021
+plod_na_biljci_kruška														
+plod_na_biljci_malina														
+plod_na_biljci_kupina														
+plod_na_biljci_grožđe														
+plod_na_biljci_paradajiz														
+plod_na_biljci_krastavac														
+plod_na_biljci_buranija														
+komponenta_električna_otpornik_kondezator	2	1	Синиша	Илић	РА 153/2021	Јана	Петровић	РА 159/2021						
+komponenta_mašinska_matica														
+komponenta_mašinska_matica_leptir														
+komponenta_mašinska_matica_šešir														
+komponenta_šraf_hex														
+komponenta_šraf_imbus														
+komponenta_šraf_konus_krstak														
+komponenta_šraf_turban														
+komponenta_šraf_sočivast														
+rupe_na_putu	1	1	Вукашин	Матовић	РА 182/2021	Ана	Зец	РА 92/2021						
+kvalitet_banana	3	1	Петар	Милинковић	РА 173/2020	Стефан	Радовановић	РА 176/2021						
+kvalitet_paprika_roga														
+kvalitet_paprika_babura														
+kvalitet_paradajiz														
+elektronika	3	1	Филип	Параг	РА 122/2018									
+auto_delovi	5	1	Марија	Нинковић	РА 99/2021	Милан	Штрбац	РА 120/2021						
+slova_gluvonemi	6	1	Душица	Валентировић	РА 193/2021	Марко	Пушковић	РА 230/2021						
