@@ -1,0 +1,14 @@
+names:
+- arduino
+- dip_switch
+- terminal_block
+nc: 3
+roboflow:
+  license: Private
+  project: <redacted>
+  url: <redacted>
+  version: 2
+  workspace: <redacted>
+test: ../test/images
+train: ../train/images
+val: ../valid/images
