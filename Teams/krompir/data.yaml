@@ -1,0 +1,10 @@
+path: /home/nikola/Desktop/ADOS_2024-main/Teams/krompir_usevi/dataset/
+
+train: images/train
+val: images/val
+
+
+nc: 1
+names: [
+  'krompir'
+]
